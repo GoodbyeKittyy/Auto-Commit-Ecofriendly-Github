@@ -24,7 +24,7 @@ jobs:
     - name: Commit change & Push
       if: steps.update.outputs.should_commit == 'true'
       run: |
-          git config user.name 'GoodbyeKittyy'
+          git config user.name 'zybuilds'
           git config user.email 'reversesituation12@gmail.com'
           git commit -am "plant some trees 🌳"
           git push
